@@ -1,0 +1,81 @@
+blog = [
+  {
+    "title": "The Future of JavaScript",
+    "description": "JavaScript continues to evolve with new features, performance improvements, and better developer experience. With the rise of WebAssembly, server-side rendering, and frameworks like Next.js, JavaScript is becoming more powerful than ever. In this article, we explore upcoming ECMAScript proposals, the role of AI in JavaScript development, and how developers can prepare for the future.",
+    "image": "https://example.com/images/javascript-future.jpg",
+    "author": "John Doe",
+    "isPublished": true
+  },
+  {
+    "title": "Understanding React Server Components",
+    "description": "React Server Components (RSC) aim to bridge the gap between client and server-side rendering, making applications faster and more efficient. Unlike traditional React components, RSC allows rendering on the server, reducing client-side JavaScript bundle size. In this comprehensive guide, we discuss how RSC works, its impact on performance, and practical use cases in real-world applications.",
+    "image": "https://example.com/images/react-server.jpg",
+    "author": "Jane Smith",
+    "isPublished": false
+  },
+  {
+    "title": "CSS Grid vs Flexbox: Which One to Use?",
+    "description": "Layout design is a crucial part of web development, and CSS provides two powerful tools: Grid and Flexbox. While both have their strengths, choosing the right one depends on your use case. Grid is best for two-dimensional layouts, while Flexbox excels at aligning elements in a single direction. This article compares their differences, use cases, and provides code examples to help you decide.",
+    "image": "https://example.com/images/css-grid-flexbox.jpg",
+    "author": "Alice Johnson",
+    "isPublished": true
+  },
+  {
+    "title": "Next.js App Router: A Comprehensive Guide",
+    "description": "Next.js introduced the App Router, a new way to handle routing, data fetching, and layouts. This paradigm shift enables better performance, scalability, and SEO-friendly applications. In this guide, we explore its key features, including server components, layouts, and how it differs from the Pages Router. We also provide hands-on examples to help developers transition smoothly.",
+    "image": "https://example.com/images/nextjs-app-router.jpg",
+    "author": "Michael Brown",
+    "isPublished": false
+  },
+  {
+    "title": "The Importance of Web Accessibility",
+    "description": "Web accessibility ensures that websites and applications are usable by everyone, including people with disabilities. By following WCAG guidelines, developers can create more inclusive experiences. This article covers the importance of semantic HTML, ARIA attributes, keyboard navigation, and testing tools to ensure compliance. Making the web accessible benefits both users and businesses alike.",
+    "image": "https://example.com/images/web-accessibility.jpg",
+    "author": "Sarah Lee",
+    "isPublished": true
+  }
+]
+
+
+
+projects = [
+  {
+    "name": "Hotel Nest",
+    "image": "https://example.com/images/hotel-nest.jpg",
+    "liveUrl": "https://hotel-nest.example.com",
+    "description": "Hotel Nest is a modern hotel booking platform that allows users to browse, book, and manage reservations seamlessly. It features an intuitive UI, real-time availability updates, and secure payment integration. Built with React, Tailwind CSS, and Node.js, it provides a smooth user experience for travelers and hotel managers alike.",
+    "githubClient": "https://github.com/user/hotel-nest-client",
+    "githubServer": "https://github.com/user/hotel-nest-server"
+  },
+  {
+    "name": "Fitness Tracker",
+    "image": "https://example.com/images/fitness-tracker.jpg",
+    "liveUrl": "https://fitness-tracker.example.com",
+    "description": "Fitness Tracker is a web application designed for fitness enthusiasts to track their workouts, monitor progress, and set fitness goals. It includes features like exercise logs, calorie tracking, and workout recommendations. The app is built using Next.js, MongoDB, and Express.js for a fast and efficient performance.",
+    "githubClient": "https://github.com/user/fitness-tracker-client",
+    "githubServer": "https://github.com/user/fitness-tracker-server"
+  },
+  {
+    "name": "CheckMate",**
+    "image": "https://example.com/images/checkmate.jpg",
+    "liveUrl": "https://checkmate.example.com",
+    "description": "CheckMate is a task management and collaboration tool for teams. It offers a calendar view, real-time notifications, and task assignments to help teams stay organized. Developed using React, Tailwind CSS, and MongoDB, CheckMate enhances productivity with its user-friendly interface and powerful features.",
+    "githubClient": "https://github.com/user/checkmate-client"
+  },
+  {
+    "name": "E-Commerce Hub",
+    "image": "https://example.com/images/ecommerce-hub.jpg",
+    "liveUrl": "https://ecommerce-hub.example.com",
+    "description": "E-Commerce Hub is an online shopping platform with features like product search, user authentication, and secure checkout. It supports multiple payment gateways and provides real-time inventory management. Built using Next.js, Stripe API, and Firebase, the platform ensures a seamless shopping experience.",
+    "githubClient": "https://github.com/user/ecommerce-hub-client",
+    "githubServer": "https://github.com/user/ecommerce-hub-server"
+  },
+  {
+    "name": "Dev Blog",
+    "image": "https://example.com/images/dev-blog.jpg",
+    "liveUrl": "https://dev-blog.example.com",
+    "description": "Dev Blog is a blogging platform where developers can share articles, tutorials, and insights on web development. It includes features like markdown support, code highlighting, and user authentication. The project is built with React, Firebase, and Tailwind CSS to deliver a smooth reading and writing experience.",
+    "githubClient": "https://github.com/user/dev-blog-client"
+  }
+]
+
